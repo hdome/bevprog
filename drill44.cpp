@@ -19,7 +19,7 @@ else if (szam<kicsi)
 cout << szam << "The smallest so far" << "\n";
 kicsi=szam;
 }
-if(unit=="cm")      // ha a mértékegységek megfelelőek átváltja öket méterbe és beküldi a vektorba.
+if(unit=="cm")
 {
 szam=szam/100;
 szamok.push_back(szam);}
